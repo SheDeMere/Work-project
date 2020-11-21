@@ -1,0 +1,268 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+.header__info {
+    display: flex;
+    width: 1140px;
+    height: auto;
+    margin: auto;
+    justify-content: space-between;
+    padding: 30px;
+    align-items: center;
+}
+.menu_header {
+    display: flex;
+    list-style: none;
+}
+.menu_header li {
+    margin-left: 35px;
+    margin-right: 35px;
+    color: #a7a7a7;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+}
+.header__logo {
+    width: 100%;
+}
+.wrap {
+    background: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 250px;
+    padding-bottom: 0px;
+}
+.wrap__text {
+    text-align: center;
+    color: #303030;
+
+}
+.big-text-1 {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+.p-one {
+    color: #a7a7a7;
+    text-transform: uppercase;
+    font-weight: 600;
+
+}
+.big-text-2 {
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #303030;
+    padding-top: 60px;
+    margin: 0; 
+}
+.border__bottom{
+    border-bottom: solid 5px;
+    width: 300px;
+    margin: auto;
+    color: #303030;
+    padding-top: 10px;
+}
+.banner__bottom{
+    width: 550px; 
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+.p-two {
+    color: #a7a7a7;
+    font-weight: 600;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    
+}
+.image__banner {
+    width: 1140px;
+    padding-bottom: 20px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin: auto;
+    margin-bottom: 40px;
+    
+}
+
+.img-banner {
+    width: 350px;
+    box-shadow: 0 0 10px;
+
+    
+
+}
+.images-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.container-bg{
+    background-color: #f5f5f5;
+    color: #303030;
+    text-align: center;
+   
+    
+}
+.big-text-3 {
+    font-size: 50px;
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0;
+}
+.border-2 {
+    border-top: solid 4px;
+    border-color: #303030;
+    width: 290px;
+    margin: auto;
+}
+.bg-text {
+    width: 1140px;
+    margin: auto;
+    font-weight: 600;
+}
+.card {
+    height: 260px;
+    width: 250px;
+    background-color: white;
+    padding-top: 30px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: 0 0 5px;
+    
+}
+.card-list {
+    display: flex;
+    justify-content: space-around;
+    width: 1140px;
+    margin: auto;
+}
+.names {
+    text-transform: uppercase;
+    color: #303030;
+    font-weight: bold;
+}
+i {
+    color: #303030;
+  
+}
+.icon {
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-top: 15px
+}
+.p-three {
+    font-weight: 400;
+}
+.contacts {
+    font-size: 40px;
+    font-weight: bold;
+    color: #303030;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 0px;
+    margin: 0;
+
+}
+.border-3 {
+    border-top: solid 4px;
+    width: 230px;
+    margin: auto;
+    border-color: #303030;
+    padding-bottom: 60px 
+    
+    
+}
+.quad {
+    width: 640px;
+    height: 366px;
+    background-color: #f3f3f3;
+    border: solid 1px; 
+    border-color: #303030;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    outline: none;
+}
+.maps {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+    margin: auto;
+    padding-bottom: 100px;
+    
+}
+.p-four {
+    font-weight: 600;
+    color: #303030;
+ 
+}
+.p-five {
+    font-weight: 600;
+    color: #303030;
+   
+    margin-bottom: 25px;
+}
+.i-2 {
+    margin-left: 20px;
+    padding-top: 0px;
+    
+}
+.maps-1 {
+    width: 450px;
+}
+.mail {
+    width: 250px;
+    height: 60px;
+    background-color: #303030;
+    position: relative;
+    top: 320px;
+    right: 104px; 
+    margin: 0px;
+}
+.sends {
+    height: 60px;
+    width: 250px;
+    background-color: #6995a9;
+    margin: auto;
+    margin-top: 10px;
+    left: 50px;
+
+}
+.sends {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 17px;
+    box-sizing: border-box;
+    color: white;
+}
+.sends:hover {
+    background-color: orange;
+}
+.footer {
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer-bg {
+    background-color: #303030;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 15px;
+}
+.d-btn {
+margin-top: 230px;
+    padding-bottom: 20px;
+
+}
+
+.nav__info li:hover {
+    border-top: solid 2px;
+}
